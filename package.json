@@ -1,0 +1,27 @@
+{
+  "name": "youtube-audio-player",
+  "version": "1.0.0",
+  "description": "A module that let's you play YouTube audio streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "youtube",
+    "stream",
+    "sound",
+    "audio",
+    "node.js"
+  ],
+  "author": "Marius Mischie <m@marius.in>",
+  "homepage": "https://github.com/maephisto/youtube-audio-player#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maephisto/youtube-audio-player.git"
+  },
+  "dependencies": {
+    "lame": "^1.2.4",
+    "speaker": "^0.3.0",
+    "youtube-audio-stream": "0.0.41"
+  }
+}
