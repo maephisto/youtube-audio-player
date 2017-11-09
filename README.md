@@ -19,7 +19,9 @@ yap.play({ url: 'http://youtube.com/watch?v=XAYhNHhxN0A' });
 //... audio starts playing now...
 
 setTimeout(function () {
-  yap.stop();
+  if (yap.isPlaying) {
+    yap.stop();
+  }
 }, 3000);
 
 ```
